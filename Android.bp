@@ -7,6 +7,79 @@ soong_namespace {
 	],
 }
 
+android_app_import {
+	name: "ImsService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "mediatek-carrier-config-manager",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-carrier-config-manager.jar"],
+}
+
+dex_import {
+	name: "mediatek-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-extension-plugin",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-ims-extension-plugin.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
+	name: "com.fingerprints.extension",
+	owner: "xiaomi",
+	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
+	soc_specific: true,
+}
+
 prebuilt_etc_xml {
 	name: "android.hardware.neuralnetworks-shim-service-mtk",
 	owner: "xiaomi",
@@ -44,9 +117,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lights-mtk-default",
+	name: "android.hardware.usb@1.2-service-mediatekv2",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -101,6 +174,24 @@ prebuilt_etc_xml {
 	name: "manifest_media_c2_V1_1_default",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.xiaomi.hardware.micharge@1.0",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vibrator-mtk-default",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
