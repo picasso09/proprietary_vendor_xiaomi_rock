@@ -448,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
-    vendor/xiaomi/rock/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/rock/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/rock/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
@@ -682,12 +681,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
@@ -738,7 +731,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
