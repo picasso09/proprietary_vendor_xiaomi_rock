@@ -29,6 +29,4 @@ It was announced & released in September 2022.
 | NFC          | Rock (No), Stone (Yes)                                            |
 
 ## Device Picture :
-
-![Redmi 11 Prime 4G & Poco M5](https://github.com/user-attachments/assets/1441440a-f9d8-4974-ad69-9f82803427ad)
-
+![Redmi11Prime&PocoM5](https://github.com/user-attachments/assets/c107642e-e450-4cd2-b672-85c6cf9d4a20)
