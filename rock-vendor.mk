@@ -1821,6 +1821,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    consumerir.common \
     ImsService \
     mediatek-carrier-config-manager \
     mediatek-common \
