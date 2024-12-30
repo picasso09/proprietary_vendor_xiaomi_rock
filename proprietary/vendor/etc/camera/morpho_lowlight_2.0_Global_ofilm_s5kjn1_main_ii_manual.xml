@@ -114,9 +114,9 @@
             </iso>
             <iso value="2000">
                 <y_nr_level       type="float"  rang="[0.0,100.0]" default="10.0"  length="1">0.5</y_nr_level>
-                <c_nr_level       type="float"  rang="[0.0,10.0]"  default="1.0"   length="1">3</c_nr_level>
-                <c_nr_times       type="int"    rang="[1,6]"       default="1"     length="1">3</c_nr_times>
-                <block_cnr        type="int"    rang="[1,6]"       default="1"     length="1">3</block_cnr>
+                <c_nr_level       type="float"  rang="[0.0,10.0]"  default="1.0"   length="1">1</c_nr_level>
+                <c_nr_times       type="int"    rang="[1,6]"       default="1"     length="1">1</c_nr_times>
+                <block_cnr        type="int"    rang="[1,6]"       default="1"     length="1">1</block_cnr>
                 <mfnr_obc         type="double" rang="[0.0,10.0]"  default="1.2"   length="1">2</mfnr_obc>
                 <obc_4face        type="double" rang="[0.0,10.0]"  default="2.2"   length="1">2.2</obc_4face>
                 <gain             type="double" rang="[0.0,10.0]"  default="1.0"   length="1">1</gain>

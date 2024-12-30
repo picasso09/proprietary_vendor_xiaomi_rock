@@ -195,7 +195,6 @@
     <Param path="Default,Music,BT_A2DP_HP" param_id="21"/>
     <Param path="Default,Music,BT_A2DP_SPK" param_id="21"/>
     <Param path="Default,DTMF,SPK" param_id="22"/>
-    <Param path="Default,Music,USB" param_id="23"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -290,9 +289,6 @@
     </ParamUnit>
     <ParamUnit param_id="22">
       <Param name="digital_gain" value="-64,-47,-44,-42,-39,-36,-33,-30,-27,-24,-21,-18,-15,-12,-9,-5"/>
-    </ParamUnit>
-    <ParamUnit param_id="23">
-      <Param name="digital_gain" value="-64,-55,-52,-49,-46,-43,-40,-37,-34,-31,-28,-24,-20,-17,-14,-11"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>
