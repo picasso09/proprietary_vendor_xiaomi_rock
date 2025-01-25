@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.security.keymint@1.0-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@1.0-service.beanpod \
-    vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
@@ -408,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
-    vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
@@ -795,7 +793,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
@@ -819,7 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6789/vulkan.mali.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mediatek.V2.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/thermal_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal_hal.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
