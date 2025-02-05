@@ -634,7 +634,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/firmware/aw87xxx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_acf.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     vendor/xiaomi/rock/proprietary/vendor/firmware/focaltech_mp_fw_tianma.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_mp_fw_tianma.ini \
+    vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/focaltech_mp_fw_tianma.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_mp_fw_tianma.ini \
     vendor/xiaomi/rock/proprietary/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_tianma.bin \
+    vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_tianma.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
     vendor/xiaomi/rock/proprietary/vendor/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/mt6627_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_patch.bin \
@@ -651,7 +653,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tm_01_ts_fw.bin \
+    vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672c_tm_01_ts_mp.bin \
+    vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
     vendor/xiaomi/rock/proprietary/vendor/firmware/soc2_2_ram_bt_1d_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1d_1_hdr.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/soc2_2_ram_bt_1e_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_bt_1e_1_hdr.bin \
@@ -798,6 +802,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mediatek.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/consumerir.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.common.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
@@ -1503,7 +1508,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
+    vendor/xiaomi/rock/proprietary//vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_SYSTEM)//vendor/lib64/libwifi-hal-mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
@@ -1817,17 +1822,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/xiaomi/rock/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
-    vendor/xiaomi/rock/proprietary/vendor/recovery/root/vendor/firmware/focaltech_mp_fw_tianma.ini:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_mp_fw_tianma.ini \
-    vendor/xiaomi/rock/proprietary/vendor/recovery/root/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_tianma.bin \
-    vendor/xiaomi/rock/proprietary/vendor/recovery/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin \
-    vendor/xiaomi/rock/proprietary/vendor/recovery/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin
-
-
-
+    vendor/xiaomi/rock/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    consumerir.common \
     ImsService \
     mediatek-carrier-config-manager \
     mediatek-common \
@@ -1838,18 +1835,18 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     com.fingerprints.extension \
-    android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.security.keymint-service.beanpod \
-    android.hardware.security.secureclock-service.beanpod \
-    android.hardware.security.sharedsecret-service.beanpod \
-    android.hardware.usb@1.2-service-mediatekv2 \
-    gnss-mtk \
-    gnss@2.1-service \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_apuware_apusys \
-    manifest_apuware_hmp \
-    manifest_apuware_utils \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
-    vendor.xiaomi.hardware.micharge@1.0 \
-    vibrator-mtk-default
+    android.hardware.neuralnetworks-shim-service-mtk.xml \
+    android.hardware.security.keymint-service.beanpod.xml \
+    android.hardware.security.secureclock-service.beanpod.xml \
+    android.hardware.security.sharedsecret-service.beanpod.xml \
+    android.hardware.usb@1.2-service-mediatekv2.xml \
+    gnss-mtk.xml \
+    gnss@2.1-service.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_apuware_apusys.xml \
+    manifest_apuware_hmp.xml \
+    manifest_apuware_utils.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_1_default.xml \
+    vendor.xiaomi.hardware.micharge@1.0.xml \
+    vibrator-mtk-default.xml

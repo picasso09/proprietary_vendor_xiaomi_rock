@@ -75,7 +75,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks-shim-service-mtk",
+	name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
 	filename_from_src: true,
@@ -84,7 +84,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.keymint-service.beanpod",
+	name: "android.hardware.security.keymint-service.beanpod.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.beanpod.xml",
 	filename_from_src: true,
@@ -93,7 +93,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.secureclock-service.beanpod",
+	name: "android.hardware.security.secureclock-service.beanpod.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.beanpod.xml",
 	filename_from_src: true,
@@ -102,7 +102,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.security.sharedsecret-service.beanpod",
+	name: "android.hardware.security.sharedsecret-service.beanpod.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.beanpod.xml",
 	filename_from_src: true,
@@ -111,7 +111,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.usb@1.2-service-mediatekv2",
+	name: "android.hardware.usb@1.2-service-mediatekv2.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml",
 	filename_from_src: true,
@@ -120,7 +120,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mtk",
+	name: "gnss-mtk.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
 	filename_from_src: true,
@@ -129,7 +129,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-service",
+	name: "gnss@2.1-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
 	filename_from_src: true,
@@ -138,7 +138,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -147,7 +147,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_apuware_apusys",
+	name: "manifest_apuware_apusys.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_apusys.xml",
 	filename_from_src: true,
@@ -156,7 +156,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_apuware_hmp",
+	name: "manifest_apuware_hmp.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_hmp.xml",
 	filename_from_src: true,
@@ -165,7 +165,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_apuware_utils",
+	name: "manifest_apuware_utils.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_apuware_utils.xml",
 	filename_from_src: true,
@@ -174,7 +174,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_hwcomposer",
+	name: "manifest_hwcomposer.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
@@ -183,7 +183,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_1_default",
+	name: "manifest_media_c2_V1_1_default.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml",
 	filename_from_src: true,
@@ -192,7 +192,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.xiaomi.hardware.micharge@1.0",
+	name: "vendor.xiaomi.hardware.micharge@1.0.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge@1.0.xml",
 	filename_from_src: true,
@@ -201,7 +201,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vibrator-mtk-default",
+	name: "vibrator-mtk-default.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vibrator-mtk-default.xml",
 	filename_from_src: true,
@@ -209,20 +209,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "consumerir.common",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/hw/consumerir.common.so"],
-			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	relative_install_path: "hw",
-	prefer: true,
-	soc_specific: true,	
-}
