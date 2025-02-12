@@ -9,27 +9,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/system/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/xiaomi/rock/proprietary/system/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/xiaomi/rock/proprietary/system/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libshowlogo.so \
-    vendor/xiaomi/rock/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
-    vendor/xiaomi/rock/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/xiaomi/rock/proprietary/system_ext/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmtk_vt_wrapper.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmtkperf_client.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvcodec_cap.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvcodec_capenc.so \
+    vendor/xiaomi/rock/proprietary/system/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
+    vendor/xiaomi/rock/proprietary/system/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+    vendor/xiaomi/rock/proprietary/system/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
+    vendor/xiaomi/rock/proprietary/system/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
+    vendor/xiaomi/rock/proprietary/system/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
+    vendor/xiaomi/rock/proprietary/system/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_socketwrapper.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
+    vendor/xiaomi/rock/proprietary/system/system/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/libsink.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsource.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
+    vendor/xiaomi/rock/proprietary/system/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvt_avsync.so \
     vendor/xiaomi/rock/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_socketwrapper.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_service.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
-    vendor/xiaomi/rock/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
     vendor/xiaomi/rock/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/xiaomi/rock/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
@@ -680,6 +680,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/gralloc.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/gralloc.common.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vulkan.mali.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
@@ -690,6 +692,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
@@ -762,6 +765,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodecdrv_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv_v3a.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvpudv3a_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvpudv3a_vcodec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
@@ -823,7 +827,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6789/vulkan.mali.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mediatek.V2.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
@@ -1737,7 +1740,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
