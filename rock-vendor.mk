@@ -32,11 +32,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
     vendor/xiaomi/rock/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/xiaomi/rock/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/xiaomi/rock/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
+    vendor/xiaomi/rock/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
+    vendor/xiaomi/rock/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/xiaomi/rock/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
+    vendor/xiaomi/rock/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
     vendor/xiaomi/rock/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/xiaomi/rock/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
-    vendor/xiaomi/rock/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
+    vendor/xiaomi/rock/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
+    vendor/xiaomi/rock/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
+    vendor/xiaomi/rock/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/xiaomi/rock/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/rock/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/rock/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
@@ -56,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
-    vendor/xiaomi/rock/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
     vendor/xiaomi/rock/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
@@ -65,8 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/bin/kmsetkey:$(TARGET_COPY_OUT_VENDOR)/bin/kmsetkey \
     vendor/xiaomi/rock/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
     vendor/xiaomi/rock/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
+    vendor/xiaomi/rock/proprietary/vendor/bin/mt6789/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/mt6789/jpegtool \
     vendor/xiaomi/rock/proprietary/vendor/bin/mt6789/v3avpud.mt6789:$(TARGET_COPY_OUT_VENDOR)/bin/mt6789/v3avpud.mt6789 \
     vendor/xiaomi/rock/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
+    vendor/xiaomi/rock/proprietary/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
     vendor/xiaomi/rock/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/xiaomi/rock/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/xiaomi/rock/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
@@ -80,12 +85,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/xiaomi/rock/proprietary/vendor/bin/volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/volte_stack \
     vendor/xiaomi/rock/proprietary/vendor/bin/volte_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_ua \
-    vendor/xiaomi/rock/proprietary/vendor/bin/wifi_dump:$(TARGET_COPY_OUT_VENDOR)/bin/wifi_dump \
+    vendor/xiaomi/rock/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
+    vendor/xiaomi/rock/proprietary/vendor/bin/wfca:$(TARGET_COPY_OUT_VENDOR)/bin/wfca \
     vendor/xiaomi/rock/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/rock/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     vendor/xiaomi/rock/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
     vendor/xiaomi/rock/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
-    vendor/xiaomi/rock/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/apdb/APDB_MT6789___W2233:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2233 \
     vendor/xiaomi/rock/proprietary/vendor/etc/apdb/APDB_MT6789___W2233_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2233_ENUM \
@@ -94,6 +99,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
+    vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
+    vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
+    vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
@@ -390,11 +399,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml \
-    vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Columbia.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml \
-    vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Movistar_Peru.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml \
@@ -411,13 +418,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/xiaomi/rock/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.rock.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.rock.nfc.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.volte_imcb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_imcb.rc \
@@ -426,29 +442,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.volte_stack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_stack.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/init.wod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wod.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
-    vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.micharge@1.0-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/xiaomi/rock/proprietary/vendor/etc/init/volte_rcs_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_rcs_ua.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    vendor/xiaomi/rock/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
+    vendor/xiaomi/rock/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/rock/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/xiaomi/rock/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
@@ -602,9 +620,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/xiaomi/rock/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/xiaomi/rock/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
-    vendor/xiaomi/rock/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/xiaomi/rock/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-chg-only.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
@@ -623,6 +639,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermal/thermal_policy_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_02.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
     vendor/xiaomi/rock/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
+    vendor/xiaomi/rock/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
@@ -677,27 +694,535 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/mt6789/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6789/libGLES_mali.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mediatek.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/gralloc.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/gralloc.common.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vulkan.mali.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipiraw_Video_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1aacmacromipirawindia_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1aacmacromipirawindia_Video_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipiraw_Video_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc02m1ofilmmacromipirawindia_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1ofilmmacromipirawindia_Video_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_3rd_Party_SF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_3rd_Party_SF.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_gc5035sunnyfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc5035sunnyfrontmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_3rd_Party_SF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_3rd_Party_SF.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_hi556ofilmfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_hi556ofilmfrontmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov02b1bsunnydepthmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov02b1bsunnydepthmipiraw_Video_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_SF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_SF.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856aacfrontmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_SF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_SF.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov8856ofilmfrontmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Bokeh_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_Aver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_Aver.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_Point.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Prefessional_Capture_Point.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Preview_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_MI_Zoom_Preview_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080_ZOOM2X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080_ZOOM2X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080_ZOOM6X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_1080_ZOOM6X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720_ZOOM2X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720_ZOOM2X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720_ZOOM6X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Video_720_ZOOM6X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_1080_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Video_720_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindia_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindia_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_1080_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Video_720_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1ofilmmainmipirawindiap_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Bokeh_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_Aver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_Aver.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_Point.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Prefessional_Capture_Point.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Preview_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_MI_Zoom_Preview_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080_ZOOM2X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080_ZOOM2X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080_ZOOM6X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_1080_ZOOM6X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720_ZOOM2X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720_ZOOM2X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720_ZOOM6X.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Video_720_ZOOM6X.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipiraw_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipiraw_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_1080_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Video_720_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindia_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindia_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_3rd_Party_camera_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_3rd_Party_camera_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_3rd_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_3rd_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Default_Capture_XTS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Default_Capture_XTS.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Face_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Face_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Facebook_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Facebook_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Flash_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Flash_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Line_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Line_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MICamera_Panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MICamera_Panorama.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Bokeh_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Bokeh_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Bokeh_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Bokeh_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_LLHDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_LLHDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Night_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Prefessional_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_ProU1traHDMode_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_ProU1traHDMode_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_SlowVideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_SlowVideo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_UltraHD_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_2x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_6x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Capture_6x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Preview_10x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_MI_Zoom_Preview_10x.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_QQ_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_QQ_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_QQ_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_QQ_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Skype_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Skype_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_TTPIC_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_TTPIC_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_1080_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_1080_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_720.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_720.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_720_ZOOM.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Video_720_ZOOM.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Wechat_Call.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Wechat_Call.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_s5kjn1sunnymainmipirawindiap_Wechat_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_s5kjn1sunnymainmipirawindiap_Wechat_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_E2EHDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_E2EHDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Face_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Flash_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Reconfig_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Reconfig_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_HDR_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_N3D_Video.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_P1_YUV.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Capture.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Capture_4cell.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview_4k.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Video_1080.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libCamera_sc202csofilmdepthmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_sc202csofilmdepthmipiraw_Video_4k.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiocomponentenginec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentenginec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosmartpamtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_hw_test.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
@@ -712,34 +1237,66 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/libh264dec_se.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_se.ca7.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhevce_sb.ca7.android.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhydra.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicd_decoder.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libmtk_bsg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_bsg.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlcWidevineModularDrm.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib/liburee_meta_drmkeyinstall.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libudf.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvcodec_utility_plat.mt6789.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility_plat.mt6789.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
@@ -750,19 +1307,51 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/arm.graphics-V1-ndk_platform.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/lib3a.ae.core.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/lib3a.ae.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/lib3a.awb.core.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/lib3a.log.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libaal_cust_func.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libaal_cust_func.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libaalservice.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libaiselector.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libcam.hal3a.log.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libcam.halsensor.hwintegration.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libcamalgo.platform2.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libcamalgo.platform2.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libcameracustom.lens.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libcameracustom.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libdpframework.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libgpudataproducer.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtk_drvb.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam.atmseventmgr.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam.eventcallback.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_debugutils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_metadata.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_modulehelper.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_stdutils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_sysutils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_tuning_utils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtkcam_ulog.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libnir_neon_driver.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpq_cust_base.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpq_prot.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpqparamparser.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodec_utility.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodec_utility_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodec_utility_v3a.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvcodecdrv_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv_v3a.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/mt6789/libvpudv3a_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvpudv3a_vcodec.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
@@ -772,11 +1361,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.1.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.2.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.netdagent@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.15.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.7.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.8.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
@@ -785,6 +1387,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.5.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.6.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
@@ -795,7 +1407,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/hq_algoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hq_algoutils.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
@@ -824,7 +1435,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mt6789/vulkan.mali.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mediatek.V2.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
@@ -1298,11 +1908,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
@@ -1312,35 +1926,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcbokeh.preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcbokeh.preview.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_fbpre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_fbpre.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_hdr_detection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_detection.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_hdr_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_preview.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libarcsoft_supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_supernight.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn_ndk.mtk.vndk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient_aidl_conversion.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentengine_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiocomponentenginec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocomponentenginec.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocustparam_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiodcrflt_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofmtconv.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioloudc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiosmartpamtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcam.seninfn3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.seninfn3d.so \
@@ -1356,7 +1969,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.utility.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
@@ -1376,6 +1988,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
@@ -1392,9 +2005,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanagerwrapper.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libhydra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhydra.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagebuffer_wrapper.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsg_log.so \
@@ -1406,20 +2021,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmi_bokehpre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_bokehpre.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmibokeh_mt6873.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mt6873.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmifpext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmifpext.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmorpho.photosolid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho.photosolid.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmorpho_Lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_Lowlight.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libmtk_bsg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_bsg.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkcam_pipelinepolicy-aov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy-aov.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfig.so \
@@ -1428,15 +2041,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkhardware_legacy.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkshifter_vendor.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkspparser.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
@@ -1464,29 +2074,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/librmsclib1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmsclib1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libsixth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsixth.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteei_daemon_vfs.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libtlcWidevineModularDrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlcWidevineModularDrm.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
@@ -1498,34 +2107,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_aa.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_dd.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_ha.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/libwvkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvkeybox.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/arm.graphics-V1-ndk_platform.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_aac_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_aac_macro_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_aac_macro_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_aac_macro_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_aac_macro_mipi_raw_india_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_aac_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_aac_macro_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_india_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc02m1_ofilm_macro_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc5035_sunny_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc5035_sunny_front_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/gc5035_sunny_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/gc5035_sunny_front_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/hi556_ofilm_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/hi556_ofilm_front_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/hi556_ofilm_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/hi556_ofilm_front_mipi_raw_tuning.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/lib3a.ae.core.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/lib3a.ae.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/lib3a.ae.stat.so \
@@ -1627,11 +2216,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature.stereo.provider.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature.vsdof.hal.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature_3dnr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature_eis.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature_fsc.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature_lmv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeature_rss.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libfeatureiodrv_mem.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libgpudataproducer.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libimageio.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libimageio_plat_drv.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libimageio_plat_pipe.so \
@@ -1709,31 +2298,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libpq_cust_base.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libpq_prot.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libpqparamparser.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/libvainr_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/libvainr_model.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov02b1b_sunny_depth_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov02b1b_sunny_depth_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov02b1b_sunny_depth_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov02b1b_sunny_depth_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov8856_aac_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov8856_aac_front_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov8856_aac_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov8856_aac_front_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov8856_ofilm_front_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov8856_ofilm_front_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/ov8856_ofilm_front_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/ov8856_ofilm_front_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_p_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_p_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_p_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_p_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_india_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_ofilm_main_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_p_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_p_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_p_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_p_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_india_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5kjn1_sunny_main_mipi_raw_tuning.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/sc202cs_ofilm_depth_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/sc202cs_ofilm_depth_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/mt6789/sc202cs_ofilm_depth_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/sc202cs_ofilm_depth_mipi_raw_tuning.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
-    vendor/xiaomi/rock/proprietary/vendor/lib64/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.detect.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
@@ -1754,8 +2321,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.clientapi@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.0.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.dmc@1.2.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
+    vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mmagent@1.1.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mms@1.0.so \
@@ -1799,6 +2370,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/lib64/vendor.xiaomi.hardware.micharge@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.micharge@1.0.so \
     vendor/xiaomi/rock/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
+    vendor/xiaomi/rock/proprietary/vendor/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/odm/etc/camera/camerabooster.json \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
@@ -1825,6 +2397,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    libwvhidl \
+    libwvdrmengine \
     ImsService \
     mediatek-carrier-config-manager \
     mediatek-common \
@@ -1846,7 +2420,8 @@ PRODUCT_PACKAGES += \
     manifest_apuware_apusys.xml \
     manifest_apuware_hmp.xml \
     manifest_apuware_utils.xml \
+    manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
-    manifest_media_c2_V1_1_default.xml \
+    manifest_media_c2_V1_2_default.xml \
     vendor.xiaomi.hardware.micharge@1.0.xml \
     vibrator-mtk-default.xml
