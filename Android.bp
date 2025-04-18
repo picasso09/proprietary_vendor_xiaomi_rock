@@ -23,6 +23,8 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libshowlogo.so",
             ],
             shared_libs: [
+                "libbase_shim",
+                "libui_shim",
                 "libcutils",
                 "libutils",
                 "libstdc++",
@@ -30,7 +32,7 @@ cc_prebuilt_library_shared {
                 "libdrm",
                 "liblog",
                 "libgui",
-                "libui",
+                "libui-v32",
                 "libbase",
                 "libSurfaceFlingerProp",
                 "libc++",
@@ -41,6 +43,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
+    check_elf_files: false,
     prefer: true,
 }
 
@@ -3394,6 +3397,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libnvram.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libbase",
                 "liblog",
@@ -3892,6 +3896,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsysenv.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libbase",
                 "libc++",
@@ -4156,47 +4161,6 @@ cc_prebuilt_library_shared {
                 "libc",
                 "libdl",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvibrator",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvibrator.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libvibrator.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -22576,10 +22540,10 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libc++",
                 "libcutils",
-                "libhidlbase_shim",
+                "libhidlbase",
                 "libhwbinder",
                 "libutils",
-                "libhidltransport",
+                "libhidlbase-v32",
                 "libc",
                 "libm",
                 "libdl",
@@ -23326,6 +23290,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/lib3a.ae.stat.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libm",
                 "libc",
@@ -23640,6 +23605,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/lib3a.flash.so",
             ],
             shared_libs: [
+                "liblog",
                 "libSQLiteModule_VER_ALL",
                 "libm",
                 "libdl",
@@ -23806,6 +23772,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/lib3a.sensors.color.so",
             ],
             shared_libs: [
+                "liblog",
                 "libm",
                 "libdl",
                 "libc",
@@ -23830,6 +23797,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/lib3a.sensors.flicker.so",
             ],
             shared_libs: [
+                "liblog",
                 "libm",
                 "libdl",
                 "libc",
@@ -24109,6 +24077,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/libaaa_ltm.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libm",
                 "libc",
@@ -26940,6 +26909,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/libmnl.so",
             ],
             shared_libs: [
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -33984,6 +33954,8 @@ cc_prebuilt_binary {
                 "libutils",
                 "libandroid_net",
                 "libcrypto",
+                "libexpat",
+                "libssl",
                 "libc++",
                 "libc",
                 "libm",

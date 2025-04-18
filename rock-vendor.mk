@@ -829,7 +829,6 @@ PRODUCT_PACKAGES += \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
-    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
