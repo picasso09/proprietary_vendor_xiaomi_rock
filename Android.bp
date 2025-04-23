@@ -43,7 +43,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
 }
 
@@ -490,6 +489,58 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "both",
     relative_install_path: "egl/mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.thermal@2.0-impl",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/android.hardware.thermal@2.0-impl.so",
+            ],
+            shared_libs: [
+                "libc",
+                "liblog",
+                "libhardware",
+                "libbase",
+                "libcutils",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.thermal@1.0",
+                "android.hardware.thermal@2.0",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so",
+            ],
+            shared_libs: [
+                "libc",
+                "liblog",
+                "libhardware",
+                "libbase",
+                "libcutils",
+                "libutils",
+                "libhidlbase",
+                "android.hardware.thermal@1.0",
+                "android.hardware.thermal@2.0",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
 }
@@ -945,6 +996,48 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "thermal_hal",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/thermal_hal.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/thermal_hal.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libhardware",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.bluetooth.audio@2.2-impl",
     owner: "xiaomi",
     strip: {
@@ -1285,6 +1378,49 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libc++",
                 "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libadpcmdec_mtk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libadpcmdec_mtk.so",
+            ],
+            shared_libs: [
+                "libmtk_drvb",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libadpcmdec_mtk.so",
+            ],
+            shared_libs: [
+                "libmtk_drvb",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc",
+                "libc++",
                 "libm",
                 "libdl",
             ],
@@ -2887,6 +3023,49 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libc++",
                 "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmp3dec_mtk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmp3dec_mtk.so",
+            ],
+            shared_libs: [
+                "libmtk_drvb",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libmp3dec_mtk.so",
+            ],
+            shared_libs: [
+                "libmtk_drvb",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc",
+                "libc++",
                 "libm",
                 "libdl",
             ],
@@ -18842,34 +19021,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libadpcmdec_mtk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libadpcmdec_mtk.so",
-            ],
-            shared_libs: [
-                "libmtk_drvb",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libapu_mdw",
     owner: "xiaomi",
     strip: {
@@ -21062,34 +21213,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmp3dec_mtk",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmp3dec_mtk.so",
-            ],
-            shared_libs: [
-                "libmtk_drvb",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmpbase",
     owner: "xiaomi",
     strip: {
@@ -22580,10 +22703,10 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libc++",
                 "libcutils",
-                "libhidlbase",
+                "libhidlbase-v32",
                 "libhwbinder",
                 "libutils",
-                "libhidlbase-v32",
+                "libhidltransport",
                 "libc",
                 "libm",
                 "libdl",
@@ -33403,6 +33526,39 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
+    name: "android.hardware.thermal@2.0-service.mtk",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk",
+            ],
+            shared_libs: [
+                "libc",
+                "liblog",
+                "libhardware",
+                "libcutils",
+                "libbase",
+                "libhidlbase",
+                "libutils",
+                "android.hardware.thermal@2.0",
+                "android.hardware.thermal@1.0",
+                "libc++",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
     name: "android.hardware.usb@1.2-service-mediatekv2",
     owner: "xiaomi",
     target: {
@@ -34543,6 +34699,13 @@ install_symlink {
 }
 
 install_symlink {
+    name: "vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek",
+    soc_specific: true,
+    installed_location: "bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek",
+    symlink_target: "/vendor/bin/hw/mt6789/android.hardware.graphics.allocator@4.0-service-mediatek.mt6789",
+}
+
+install_symlink {
     name: "vendor_bin_hw_camerahalserver",
     soc_specific: true,
     installed_location: "bin/hw/camerahalserver",
@@ -34610,6 +34773,13 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib/arm.graphics-V1-ndk_platform.so",
     symlink_target: "/vendor/lib/mt6789/arm.graphics-V1-ndk_platform.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libaiselector_so",
+    soc_specific: true,
+    installed_location: "lib/libaiselector.so",
+    symlink_target: "/vendor/lib/mt6789/libaiselector.so",
 }
 
 install_symlink {
@@ -34778,6 +34948,13 @@ install_symlink {
     soc_specific: true,
     installed_location: "lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so",
     symlink_target: "/vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so",
+    symlink_target: "/vendor/lib64/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so",
 }
 
 install_symlink {

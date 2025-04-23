@@ -459,6 +459,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
+    vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
@@ -710,7 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/firmware/soc2_2_ram_wifi_1e_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1e_1_hdr.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
     vendor/xiaomi/rock/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
-    vendor/xiaomi/rock/proprietary/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     vendor/xiaomi/rock/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     vendor/xiaomi/rock/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/rock/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
@@ -748,6 +748,7 @@ PRODUCT_PACKAGES += \
     libMEOW_qt \
     libMEOW_trace \
     libGLES_mali \
+    android.hardware.thermal@2.0-impl \
     audio.primary.mediatek \
     audio.r_submix.mediatek \
     android.hardware.graphics.allocator@4.0-impl-mediatek \
@@ -755,6 +756,7 @@ PRODUCT_PACKAGES += \
     gralloc.common \
     vulkan.mali \
     sound_trigger.primary.default \
+    thermal_hal \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     libAVCSecureVencCA \
     libDefaultFpsActor \
@@ -763,6 +765,7 @@ PRODUCT_PACKAGES += \
     libNoFpsActor \
     libOpenCL \
     libTEECommon \
+    libadpcmdec_mtk \
     libaedv \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
@@ -799,6 +802,7 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libladder \
     libmnetlink_v104 \
+    libmp3dec_mtk \
     libmsbc_mtk \
     libmtkares \
     libmtkcutils \
@@ -1388,7 +1392,6 @@ PRODUCT_PACKAGES += \
     libaal_cust \
     libaal_key \
     libaal_mtk \
-    libadpcmdec_mtk \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
@@ -1465,7 +1468,6 @@ PRODUCT_PACKAGES += \
     libmml \
     libmorpho.photosolid \
     libmorpho_Lowlight \
-    libmp3dec_mtk \
     libmpbase \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
@@ -1844,6 +1846,7 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@1.0-service.beanpod \
+    android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.vibrator-service.mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
@@ -1884,6 +1887,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_media_c2@1_2-mediatek \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek_mt6789 \
+    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
     vendor_bin_hw_camerahalserver \
     vendor_bin_v3avpud_mt6789 \
     vendor_lib_egl_libGLES_mali_so \
@@ -1894,6 +1898,7 @@ PRODUCT_PACKAGES += \
     vendor_lib_hw_gralloc_common_so \
     vendor_lib_hw_vulkan_mali_so \
     vendor_lib_arm_graphics-V1-ndk_platform_so \
+    vendor_lib_libaiselector_so \
     vendor_lib_libdpframework_so \
     vendor_lib_libgpudataproducer_so \
     vendor_lib_libmtk_drvb_so \
@@ -1918,6 +1923,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_1-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_lomoeffect@1_0-impl_so \
+    vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so \
     vendor_lib64_hw_vulkan_mali_so \
     vendor_lib64_hw_sensors_mt6789_so \
     vendor_lib64_arm_graphics-V1-ndk_platform_so \
