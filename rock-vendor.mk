@@ -822,7 +822,6 @@ PRODUCT_PACKAGES += \
     libpowerhal \
     libpowerhalwrap_vendor \
     librt_extamp_intf \
-    libsensorndkbridge \
     libsixth \
     libspeech_enh_lib \
     libspeechparser_vendor \
@@ -898,7 +897,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    android.hardware.sensors@2.X-subhal-mediatek \
     consumerir.common \
     fingerprint.fpc \
     fingerprint.goodix \
