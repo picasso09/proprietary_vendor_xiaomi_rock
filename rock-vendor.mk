@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_tianma.bin \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin \
-    vendor/xiaomi/rock/proprietary/system/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/xiaomi/rock/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
@@ -738,7 +737,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
-    libshowlogo \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
@@ -1826,7 +1824,6 @@ PRODUCT_PACKAGES += \
     manifest_media_c2_V1_1_default.xml \
     vendor.xiaomi.hardware.micharge@1.0.xml \
     vibrator-mtk-default.xml \
-    kpoc_charger \
     atcid \
     bp_kmsetkey_ca \
     ccci_mdinit \

@@ -12,41 +12,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libshowlogo",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libshowlogo.so",
-            ],
-            shared_libs: [
-                "libbase_shim",
-                "libui_shim",
-                "libcutils",
-                "libutils",
-                "libstdc++",
-                "libz",
-                "libdrm",
-                "liblog",
-                "libgui",
-                "libui-v32",
-                "libbase",
-                "libSurfaceFlingerProp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "AVCSecureVdecCA",
     owner: "xiaomi",
     strip: {
@@ -32823,44 +32788,6 @@ prebuilt_etc_xml {
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "kpoc_charger",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system/bin/kpoc_charger",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libstdc++",
-                "libz",
-                "liblog",
-                "libui",
-                "libdrm",
-                "libhardware_legacy",
-                "libsuspend",
-                "android.hardware.health@2.0",
-                "libbase",
-                "libbinder",
-                "libhidlbase",
-                "libhidltransport",
-                "libshowlogo",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
 }
 
 cc_prebuilt_binary {
