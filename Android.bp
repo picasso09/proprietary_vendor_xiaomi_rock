@@ -34915,9 +34915,9 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_vendor_lib64_lib3a_ae_so",
+    name: "vendor_lib64_lib3a_ae_so",
     soc_specific: true,
-    installed_location: "lib64/vendor/lib64/lib3a.ae.so",
+    installed_location: "lib64/lib3a.ae.so",
     symlink_target: "/vendor/lib64/mt6789/lib3a.ae.so",
 }
 
@@ -35048,9 +35048,9 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_lib3_sensors_flicker_so",
+    name: "vendor_lib64_lib3a_sensors_flicker_so",
     soc_specific: true,
-    installed_location: "lib64/lib3.sensors.flicker.so",
+    installed_location: "lib64/lib3a.sensors.flicker.so",
     symlink_target: "/vendor/lib64/mt6789/lib3a.sensors.flicker.so",
 }
 
@@ -35174,30 +35174,30 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_libaiawb_tuning_so",
+    name: "vendor_lib64_libaibc_tuning_so",
     soc_specific: true,
-    installed_location: "lib64/libaiawb_tuning.so",
+    installed_location: "lib64/libaibc_tuning.so",
     symlink_target: "/vendor/lib64/mt6789/libaibc_tuning.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libaiawb_tuning_p2_so",
+    name: "vendor_lib64_libaibc_tuning_p2_so",
     soc_specific: true,
-    installed_location: "lib64/libaiawb_tuning_p2.so",
+    installed_location: "lib64/libaibc_tuning_p2.so",
     symlink_target: "/vendor/lib64/mt6789/libaibc_tuning_p2.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libaiawb_tuning_p3_so",
+    name: "vendor_lib64_libaibc_tuning_p3_so",
     soc_specific: true,
-    installed_location: "lib64/libaiawb_tuning_p3.so",
+    installed_location: "lib64/libaibc_tuning_p3.so",
     symlink_target: "/vendor/lib64/mt6789/libaibc_tuning_p3.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libaiawb_tuning_p4_so",
+    name: "vendor_lib64_libaibc_tuning_p4_so",
     soc_specific: true,
-    installed_location: "lib64/libaiawb_tuning_p4.so",
+    installed_location: "lib64/libaibc_tuning_p4.so",
     symlink_target: "/vendor/lib64/mt6789/libaibc_tuning_p4.so",
 }
 
@@ -35342,9 +35342,9 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_libcam_halisp_halisp_so",
+    name: "vendor_lib64_libcam_halisp_so",
     soc_specific: true,
-    installed_location: "lib64/libcam.halisp.halisp.so",
+    installed_location: "lib64/libcam.halisp.so",
     symlink_target: "/vendor/lib64/mt6789/libcam.halisp.so",
 }
 
@@ -35442,28 +35442,28 @@ install_symlink {
 install_symlink {
     name: "vendor_lib64_libcamdrv_isp_so",
     soc_specific: true,
-    installed_location: "lib64/libcamdrv.isp.so",
+    installed_location: "lib64/libcamdrv_isp.so",
     symlink_target: "/vendor/lib64/mt6789/libcamdrv_isp.so",
 }
 
 install_symlink {
     name: "vendor_lib64_libcamdrv_tuning_mgr_so",
     soc_specific: true,
-    installed_location: "lib64/libcamdrv.tuning_mgr.so",
+    installed_location: "lib64/libcamdrv_tuning_mgr.so",
     symlink_target: "/vendor/lib64/mt6789/libcamdrv_tuning_mgr.so",
 }
 
 install_symlink {
     name: "vendor_lib64_libcamdrv_twin_so",
     soc_specific: true,
-    installed_location: "lib64/libcamdrv.twin.so",
+    installed_location: "lib64/libcamdrv_twin.so",
     symlink_target: "/vendor/lib64/mt6789/libcamdrv_twin.so",
 }
 
 install_symlink {
-    name: "vendor_lib64_libcamera_custom_pd_buf_so",
+    name: "vendor_lib64_libcamera_custom_pd_buf_mgr_so",
     soc_specific: true,
-    installed_location: "lib64/libcamera.custom.pd_buf.so",
+    installed_location: "lib64/libcamera.custom.pd_buf_mgr.so",
     symlink_target: "/vendor/lib64/mt6789/libcamera.custom.pd_buf_mgr.so",
 }
 
@@ -35489,9 +35489,9 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_libcamera_customaflk_so",
+    name: "vendor_lib64_libcamera_customflk_so",
     soc_specific: true,
-    installed_location: "lib64/libcamera.customaflk.so",
+    installed_location: "lib64/libcamera.customflk.so",
     symlink_target: "/vendor/lib64/mt6789/libcamera.customflk.so",
 }
 
@@ -35519,7 +35519,7 @@ install_symlink {
 install_symlink {
     name: "vendor_lib64_libcameracustom_camera_exif_so",
     soc_specific: true,
-    installed_location: "lib64/libcameracustom.camera.exif.so",
+    installed_location: "lib64/libcameracustom.camera_exif.so",
     symlink_target: "/vendor/lib64/mt6789/libcameracustom.camera_exif.so",
 }
 
@@ -35545,9 +35545,9 @@ install_symlink {
 }
 
 install_symlink {
-    name: "vendor_lib64_libcameracustom_isp_so",
+    name: "vendor_lib64_libcameracustom_plugin_so",
     soc_specific: true,
-    installed_location: "lib64/libcameracustom.isp.so",
+    installed_location: "lib64/libcameracustom.plugin.so",
     symlink_target: "/vendor/lib64/mt6789/libcameracustom.plugin.so",
 }
 

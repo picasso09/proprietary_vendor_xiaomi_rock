@@ -1935,7 +1935,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_hi556_ofilm_front_mipi_raw_IdxMgr_so \
     vendor_lib64_hi556_ofilm_front_mipi_raw_tuning_so \
     vendor_lib64_lib3a_ae_core_so \
-    vendor_lib64_vendor_lib64_lib3a_ae_so \
+    vendor_lib64_lib3a_ae_so \
     vendor_lib64_lib3a_ae_stat_so \
     vendor_lib64_lib3a_af_assist_so \
     vendor_lib64_lib3a_af_assist_utils_so \
@@ -1954,7 +1954,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_lib3a_log_so \
     vendor_lib64_lib3a_n3d3a_so \
     vendor_lib64_lib3a_sensors_color_so \
-    vendor_lib64_lib3_sensors_flicker_so \
+    vendor_lib64_lib3a_sensors_flicker_so \
     vendor_lib64_libDR_so \
     vendor_lib64_libSonyIMX230PdafLibrary_so \
     vendor_lib64_libSonyIMX230PdafLibraryWrapper_so \
@@ -1972,10 +1972,10 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaiawb_moon_so \
     vendor_lib64_libaiawb_p1ggm_so \
     vendor_lib64_libaiawb_sun_so \
-    vendor_lib64_libaiawb_tuning_so \
-    vendor_lib64_libaiawb_tuning_p2_so \
-    vendor_lib64_libaiawb_tuning_p3_so \
-    vendor_lib64_libaiawb_tuning_p4_so \
+    vendor_lib64_libaibc_tuning_so \
+    vendor_lib64_libaibc_tuning_p2_so \
+    vendor_lib64_libaibc_tuning_p3_so \
+    vendor_lib64_libaibc_tuning_p4_so \
     vendor_lib64_libaidepth_tuning_so \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libcam_afhal_so \
@@ -1996,7 +1996,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libcam_hal3a_v3_so \
     vendor_lib64_libcam_halisp_buf_so \
     vendor_lib64_libcam_halisp_common_so \
-    vendor_lib64_libcam_halisp_halisp_so \
+    vendor_lib64_libcam_halisp_so \
     vendor_lib64_libcam_halsensor_hwintegration_so \
     vendor_lib64_libcam_halsensor_so \
     vendor_lib64_libcam_iopipe_so \
@@ -2013,11 +2013,11 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libcamdrv_isp_so \
     vendor_lib64_libcamdrv_tuning_mgr_so \
     vendor_lib64_libcamdrv_twin_so \
-    vendor_lib64_libcamera_custom_pd_buf_so \
+    vendor_lib64_libcamera_custom_pd_buf_mgr_so \
     vendor_lib64_libcamera_customae_so \
     vendor_lib64_libcamera_customaf_so \
     vendor_lib64_libcamera_customawb_so \
-    vendor_lib64_libcamera_customaflk_so \
+    vendor_lib64_libcamera_customflk_so \
     vendor_lib64_libcameracustom_camera_3a_so \
     vendor_lib64_libcameracustom_camera_isp_so \
     vendor_lib64_libcameracustom_camera_sensors_so \
@@ -2025,7 +2025,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libcameracustom_eis_so \
     vendor_lib64_libcameracustom_flashlight_so \
     vendor_lib64_libcameracustom_lens_so \
-    vendor_lib64_libcameracustom_isp_so \
+    vendor_lib64_libcameracustom_plugin_so \
     vendor_lib64_libcameracustom_so \
     vendor_lib64_libdip_drv_so \
     vendor_lib64_libdip_postproc_so \
