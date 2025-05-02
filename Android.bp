@@ -32576,7 +32576,7 @@ android_app_import {
     apk: "proprietary/system_ext/priv-app/ImsService/ImsService.apk",
     certificate: "platform",
     dex_preopt: {
-        enabled: false,
+        enabled: true,
     },
     privileged: true,
     system_ext_specific: true,
