@@ -6890,7 +6890,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/hwcomposer.mtk_common.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -7021,7 +7020,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libmtkcam_device3_hidl",
                 "liblog",
                 "libutils-v32",
@@ -20095,178 +20093,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcodec2_soft_mtk_alacdec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_mtk_alacdec.so",
-            ],
-            shared_libs: [
-                "libcodec2_soft_common",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libstagefright_foundation",
-                "libbase",
-                "libcodec2",
-                "libcodec2_mtk_c2store",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_soft_mtk_apedec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_mtk_apedec.so",
-            ],
-            shared_libs: [
-                "libcodec2_soft_common",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libstagefright_foundation",
-                "libbase",
-                "libcodec2",
-                "libcodec2_mtk_c2store",
-                "libaudioutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_soft_mtk_imaadpcmdec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so",
-            ],
-            shared_libs: [
-                "libcodec2_soft_common",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libstagefright_foundation",
-                "libbase",
-                "libcodec2",
-                "libcodec2_mtk_c2store",
-                "libadpcmdec_mtk",
-                "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_soft_mtk_mp3dec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_mtk_mp3dec.so",
-            ],
-            shared_libs: [
-                "libcodec2_soft_common",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libstagefright_foundation",
-                "libbase",
-                "libcodec2",
-                "libcodec2_mtk_c2store",
-                "libmp3dec_mtk",
-                "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_soft_mtk_msadpcmdec",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so",
-            ],
-            shared_libs: [
-                "libcodec2_soft_common",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libstagefright_foundation",
-                "libbase",
-                "libcodec2",
-                "libcodec2_mtk_c2store",
-                "libadpcmdec_mtk",
-                "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcodec2_vpp_qt_plugin",
     owner: "xiaomi",
     strip: {
@@ -29226,7 +29052,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6789/libmtkcam_stdutils.so",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "liblog",
                 "libutils-v32",
                 "libcutils",
@@ -33338,7 +33163,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "android.hardware.security.rkp-V3-ndk",
                 "libhidlbase",
-                "android.hardware.security.keymint-V4-ndk",
+                "android.hardware.security.keymint-V3-ndk",
                 "android.hardware.security.sharedsecret-V1-ndk",
                 "android.hardware.security.secureclock-V1-ndk",
                 "lib_android_keymaster_keymint_utils",
@@ -33763,7 +33588,6 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service",
             ],
             shared_libs: [
-                "libprocessgroup_shim",
                 "libhidlbase",
                 "libhidltransport",
                 "liblog",
