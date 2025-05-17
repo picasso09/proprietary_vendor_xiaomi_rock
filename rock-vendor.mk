@@ -763,7 +763,6 @@ PRODUCT_PACKAGES += \
     libNoFpsActor \
     libOpenCL \
     libTEECommon \
-    libadpcmdec_mtk \
     libaedv \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
@@ -800,7 +799,6 @@ PRODUCT_PACKAGES += \
     libipsec_ims_shr \
     libladder \
     libmnetlink_v104 \
-    libmp3dec_mtk \
     libmsbc_mtk \
     libmtkares \
     libmtkcutils \
@@ -1430,11 +1428,6 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
