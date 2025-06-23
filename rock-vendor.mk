@@ -2020,6 +2020,9 @@ PRODUCT_PACKAGES += \
     android.hardware.security.secureclock-service.beanpod \
     android.hardware.security.sharedsecret-service.beanpod \
     android.hardware.usb@1.2-service-mediatekv2 \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi.supplicant \
+    android.hardware.wifi@1.0-service \
     gnss-mtk \
     gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
