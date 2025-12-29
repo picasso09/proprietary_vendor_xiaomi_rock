@@ -651,9 +651,11 @@ PRODUCT_PACKAGES += \
     libTEECommon \
     lib_iir \
     lib_speech_enh \
+    libadpcmdec_mtk \
     libaedv \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
@@ -721,7 +723,6 @@ PRODUCT_PACKAGES += \
     libvcodec_oal \
     libvcodecdrv_header_stub \
     libverno \
-    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -782,13 +783,10 @@ PRODUCT_PACKAGES += \
     libvcodecdrv \
     libvcodecdrv_v3a \
     libvpudv3a_vcodec \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
     vendor.mediatek.hardware.rcs@2.0 \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    com.fingerprints.extension@1.0 \
     ese_client \
     ese_spi_nxp \
     hal_libnfc \
@@ -797,7 +795,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
-    consumerir.common \
+    consumerir.mt6789 \
     fingerprint.fpc \
     fingerprint.goodix \
     gatekeeper.beanpod \
@@ -1285,11 +1283,9 @@ PRODUCT_PACKAGES += \
     libJpgEncPipe \
     libMtkOmxCore \
     libSQLiteModule_VER_ALL \
-    lib_android_keymaster_keymint_utils \
     libaal_cust \
     libaal_key \
     libaal_mtk \
-    libadpcmdec_mtk \
     libapu_mdw \
     libapu_mdw_batch \
     libapusys \
@@ -1309,7 +1305,6 @@ PRODUCT_PACKAGES += \
     libasn1c_core \
     libasn1c_mapi \
     libasn1c_mdmi \
-    libaudiocompensationfilterc \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbt-vendor \
@@ -1684,13 +1679,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.wifi.hostapd_ext@1.0 \
     vendor.nxp.eventprocessor@1.0 \
-    vendor.nxp.nxpese@1.0 \
-    vendor.nxp.nxpnfc@2.0 \
     vendor.nxp.nxpnfclegacy@1.0 \
-    vendor.xiaomi.hardware.fingerprintextension@1.0 \
     vendor.xiaomi.hardware.micharge@1.0 \
-    libmtk_vt_wrapper \
-    libmtkperf_client \
     libvcodec_cap \
     libvcodec_capenc \
     vendor.mediatek.hardware.videotelephony@1.0 \
@@ -1700,10 +1690,12 @@ PRODUCT_PACKAGES += \
     libimsma_rtp \
     libimsma_socketwrapper \
     libmtk_vt_service \
+    libmtk_vt_wrapper \
     libsignal \
-    libsink \
+    libsink-mtk \
     libsource \
     libvt_avsync \
+    vendor.mediatek.hardware.videotelephony-V1-ndk \
     ImsService \
     mediatek-carrier-config-manager \
     mediatek-common \
