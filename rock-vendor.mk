@@ -10,7 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_tianma.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_tianma.bin \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_fw.bin \
     vendor/xiaomi/rock/proprietary/recovery/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/nt36672c_tm_01_ts_mp.bin \
-    vendor/xiaomi/rock/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
     vendor/xiaomi/rock/proprietary/vendor/etc/apdb/APDB_MT6789___W2233:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2233 \
@@ -641,7 +640,6 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.default \
     thermal_hal \
     vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
     libAVCSecureVencCA \
     libDefaultFpsActor \
     libFrameRecord \
@@ -755,7 +753,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
     vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     libHEVCdec_sa.ca7.android \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
@@ -1417,7 +1414,7 @@ PRODUCT_PACKAGES += \
     libviamipc-ril \
     libvpu \
     libvpu5 \
-    libwifi-hal \
+    libwifi-hal-mtk \
     libwifitest \
     libwpfa \
     libwvkeybox \
@@ -1681,30 +1678,6 @@ PRODUCT_PACKAGES += \
     vendor.nxp.eventprocessor@1.0 \
     vendor.nxp.nxpnfclegacy@1.0 \
     vendor.xiaomi.hardware.micharge@1.0 \
-    libvcodec_cap \
-    libvcodec_capenc \
-    vendor.mediatek.hardware.videotelephony@1.0 \
-    libcomutils \
-    libimsma \
-    libimsma_adapt \
-    libimsma_rtp \
-    libimsma_socketwrapper \
-    libmtk_vt_service \
-    libmtk_vt_wrapper \
-    libsignal \
-    libsink-mtk \
-    libsource \
-    libvt_avsync \
-    vendor.mediatek.hardware.videotelephony-V1-ndk \
-    ImsService \
-    mediatek-carrier-config-manager \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.fingerprints.extension \
     android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
@@ -1752,7 +1725,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.xiaomi.hardware.micharge@1.0-service \
-    vtservice_hidl \
     kmsetkey \
     mnld \
     v3avpud.mt6789 \
@@ -1773,5 +1745,4 @@ PRODUCT_PACKAGES += \
     wifi_dump \
     wlan_assistant \
     wmt_launcher \
-    wmt_loader \
-    vtservice
+    wmt_loader
