@@ -784,6 +784,7 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
+    android.hardware.security.keymint-V3-ndk-v34 \
     ese_client \
     ese_spi_nxp \
     hal_libnfc \
