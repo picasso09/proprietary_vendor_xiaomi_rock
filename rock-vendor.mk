@@ -341,7 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.security.keymint-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.beanpod.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    vendor/xiaomi/rock/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/xiaomi/rock/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -713,7 +712,6 @@ PRODUCT_PACKAGES += \
     libsixth \
     libspeech_enh_lib \
     libspeechparser_vendor \
-    libstagefrighthw \
     libsysenv \
     libthha \
     libtlcWidevineModularDrm \
@@ -792,7 +790,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
-    android.hardware.sensors@2.X-subhal-mediatek \
     consumerir.mt6789 \
     fingerprint.fpc \
     fingerprint.goodix \
@@ -1685,7 +1682,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-service.beanpod.xml \
     android.hardware.security.secureclock-service.beanpod.xml \
     android.hardware.security.sharedsecret-service.beanpod.xml \
-    android.hardware.usb@1.2-service-mediatekv2.xml \
     gnss-mtk.xml \
     gnss@2.1-service.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
@@ -1714,7 +1710,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint@1.0-service.beanpod \
     android.hardware.thermal@2.0-service.mtk \
-    android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.vibrator-service.mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
     camerahalserver \
