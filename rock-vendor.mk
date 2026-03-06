@@ -647,7 +647,7 @@ PRODUCT_PACKAGES += \
     lib_speech_enh \
     libadpcmdec_mtk \
     libaedv \
-    libalsautils-v33 \
+    libalsautils-v31 \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -684,7 +684,6 @@ PRODUCT_PACKAGES += \
     libion_ulit \
     libipsec_ims_shr \
     libladder \
-    libmisound \
     libmnetlink_v104 \
     libmp3dec_mtk \
     libmsbc_mtk \

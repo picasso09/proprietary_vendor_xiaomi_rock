@@ -478,7 +478,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
-                "libalsautils-v33",
+                "libalsautils-v31",
                 "libhardware_legacy",
                 "libhardware",
                 "libaudioutils",
@@ -517,7 +517,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "libutils",
-                "libalsautils-v33",
+                "libalsautils-v31",
                 "libhardware_legacy",
                 "libhardware",
                 "libaudioutils",
@@ -1438,7 +1438,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libalsautils-v33",
+    name: "libalsautils-v31",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1446,7 +1446,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/libalsautils-v33.so",
+                "proprietary/vendor/lib/libalsautils-v31.so",
             ],
             shared_libs: [
                 "liblog",
@@ -1461,7 +1461,7 @@ cc_prebuilt_library_shared {
         },
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libalsautils-v33.so",
+                "proprietary/vendor/lib64/libalsautils-v31.so",
             ],
             shared_libs: [
                 "liblog",
@@ -3076,47 +3076,6 @@ cc_prebuilt_library_shared {
                 "libunwindstack",
                 "liblog",
                 "libbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmisound",
-    owner: "xiaomi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmisound.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libmisound.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
