@@ -1401,7 +1401,6 @@ PRODUCT_PACKAGES += \
     libviamipc-ril \
     libvpu \
     libvpu5 \
-    libwifi-hal-mtk \
     libwifitest \
     libwpfa \
     libwvkeybox \
